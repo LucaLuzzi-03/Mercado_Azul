@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+  --font-base: 'Bebas Neue', serif;
+  --font-alt: 'Montserrat', sans-serif;
+
+  --color-primary: #0e4188;
+
+  --color-light-1: #dfdfdf;
+
+  --color-black: #0C0C0C;
+  --color-grey: #AAAAAA;
+  --color-white: #FFFFFF;
+
+  --box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  color: var(--color-black);
+}
+
+body {
+    background-color: var(--color-light-1);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* ?Aqui empieza el HEADER */
+
+/* ?NAVBAR */
+.navbar {
+    width: 100vw;
+    background-color: var(--color-primary);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    list-style: none;
+    padding: 2rem;
+}
+
+.navbar-container li a {
+    color: var(--color-white);
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-family: var(--font-base);
+}
+
+/* ?HOME */
+.home-container { 
+    width: 100vw;
+    padding: 6rem 2rem 6rem 2rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.home-container h1 {
+    font-size: 4rem;
+    font-family: var(--font-alt);
+}
+
+.home-container p {
+    font-size: 2rem;
+    font-family: var(--font-alt);
+}
+
+.home-container a {
+    width: fit-content;
+    background-color: transparent;
+    padding: 1.5rem 3rem;
+    border: 2px solid var(--color-primary);
+    border-radius: 1rem;
+    cursor: pointer;
+    
+    font-family: var(--font-alt);
+    font-size: 2rem;
+    color: var(--color-primary);
+}
+
+.home-container a:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    transition: .3s;
+}
