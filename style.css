@@ -36,9 +36,8 @@ a {
 }
 
 
-/* ?Aqui empieza el HEADER */
-
-/* ?NAVBAR */
+/* *Aqui empieza el HEADER */
+/* *NAVBAR */
 .navbar {
     width: 100vw;
     background-color: var(--color-primary);
@@ -60,8 +59,9 @@ a {
     font-family: var(--font-base);
 }
 
-/* ?HOME */
-.home-container { 
+
+/* *Inicio */
+.inicio-container { 
     width: 100vw;
     padding: 6rem 2rem 6rem 2rem;
 
@@ -71,17 +71,17 @@ a {
     gap: 2rem;
 }
 
-.home-container h1 {
+.inicio-container h1 {
     font-size: 4rem;
     font-family: var(--font-alt);
 }
 
-.home-container p {
+.inicio-container p {
     font-size: 2rem;
     font-family: var(--font-alt);
 }
 
-.home-container a {
+.inicio-container a {
     width: fit-content;
     background-color: transparent;
     padding: 1.5rem 3rem;
@@ -94,7 +94,7 @@ a {
     color: var(--color-primary);
 }
 
-.home-container a:hover {
+.inicio-container a:hover {
     background-color: var(--color-primary);
     color: var(--color-white);
     transition: .3s;
