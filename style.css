@@ -125,8 +125,9 @@ a {
 }
 
 .productos-container_cards {
-    width: 100vw;
+    width: 100%;
     display: flex;
+    justify-content: start;
     flex-wrap: wrap;
     gap: 4rem;
 }
@@ -177,7 +178,7 @@ a {
 }
 
 
-
+/* *SECCION contacto */
 .contacto-container {
     width: 100vw;
     display: flex;
@@ -253,4 +254,20 @@ a {
     background-color: var(--color-primary);
     color: var(--color-white);
     transition: .3s;
+}
+
+
+/* *Aqui empieza el FOOTER */
+footer {
+    background-color: var(--color-primary);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+footer p {
+    color: var(--color-white);
+    font-size: 2rem;
+    font-family: var(--font-alt);
 }
